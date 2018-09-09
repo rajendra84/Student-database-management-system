@@ -1,0 +1,110 @@
+@import http://fonts.googleapis.com/css?family=Raleway;
+/*----------------------------------------------
+CSS Settings For HTML Div ExactCenter
+------------------------------------------------*/
+#main {
+width:960px;
+margin-left:500px;
+font-family:raleway;
+}
+#header {
+    overflow: hidden;
+    background-image:url(header.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding: 10px 10px;
+    width:1400px;
+  }
+#header b{
+    float:left;
+    color:black;
+    font-size: 20px;
+    text align:center; 
+    justify-content: center;
+    padding-left:60px;
+}
+#header a{
+    float:right;
+    font-size: 20px;
+    margin-top: 70px;
+    color:white;
+}
+#header img{
+    float:left;
+    text align:center;
+    height: 85px;
+    padding-left:43px; 
+}
+body{  
+    height:100%;
+    width:70%;
+    background-image:url(image2.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
+    -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale');
+}
+span {
+color:red
+}
+h2 {
+background-color:#FEFFED;
+text-align:center;
+border-radius:10px 10px 0 0;
+margin:-10px -40px;
+padding:15px
+}
+hr {
+border:0;
+border-bottom:1px solid #ccc;
+margin:10px -40px;
+margin-bottom:30px
+}
+#login {
+width:300px;
+float:left;
+background-color:white;
+border-radius:10px;
+font-family:raleway;
+border:2px solid #ccc;
+padding:10px 40px 25px;
+margin-top:70px
+}
+input[type=text],input[type=password] {
+width:99.5%;
+padding:10px;
+margin-top:8px;
+border:1px solid #ccc;
+padding-left:5px;
+font-size:16px;
+font-family:raleway
+}
+input[type=submit] {
+width:100%;
+background-color:#2874A6;
+color:#fff;
+border:2px solid #2874A6;
+padding:10px;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+margin-bottom:15px
+}
+#profile {
+padding:50px;
+border:1px dashed grey;
+font-size:20px;
+background-color:#DCE6F7
+}
+#logout {
+float:right;
+padding:5px;
+border:dashed 1px gray
+}
+a {
+text-decoration:none;
+color:#6495ed
+}
+i {
+color:#6495ed
+}

@@ -1,0 +1,46 @@
+*{
+  margin:0;
+  padding:0;
+}
+.wrap{
+  margin:0 auto;
+  width:1000px;
+
+}
+body{
+  background-image:url(image.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
+  -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale');
+}
+h1{
+  text-align: center;
+}
+
+form {
+  margin-left: 400px;
+
+}
+form h3{
+  font-size: 30px;
+ line-height: 50px;
+}
+a{
+    margin-left: 450px;
+    font-size: 30px;
+
+}
+button{
+  margin-top: 20px;
+  margin-left: 80px;
+  width:100px;
+  height:30px;
+  background-color: #222;
+  color: #fff;
+}
+input{
+  width:270px;
+  height:30px;
+  border: 1px solid blue;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="admincss.css">
+        <title>Admin page</title>
+  </head>
+  <body>
+    <div class="wrap">
+
+    <h1><u><b>ADMINISTRATION</b></u></h1>
+    <br>
+    <br>
+    <br>
+    <br><br><br><br>
+    <div class="drop">
+    <select class="first" onchange="location = this.value;" >
+      <option >INSERT</option>
+      <option value="student_insert.php">STUDENT</a></option>
+      <option value="instructor_insert.php">INSTRUCTOR</a></option>
+      <option value="grade_insert.php">GRADES</a></option>
+      <option value="course_insert.php">COURSE</a></option>
+      <option value="department_insert.php">DEPARTMENT</a></option>
+    </select>
+
+    <select class="second" onchange="location = this.value;">
+    <option >DELETE  </option>
+    <option value ="student_delete.php">Student</a></option>
+    <option value ="instructor_delete.php">Instructor</a></option>
+    </select>
+
+    <select class="third" onchange="location = this.value;" >
+      <option >UPDATE</option>
+      <option value="grade_update.php">GRADES</a></option>
+      <option value="course_update.php">COURSE</a></option>
+      <option value="department_update.php">DEPARTMENT</a></option>
+
+    </select>
+    <select class="fourth" onchange="location = this.value;" >
+      <option >SEARCH</option>
+      <option value="student_search.php">STUDENT</a></option>
+      <option value="instructor_search.php">INSTRUCTOR</a></option>
+
+    </select>
+    <br><br><br><br><br><br><br>
+
+  </div>
+
+  </div>
+  <form method="post" action="logout.php">
+  <center><input type="submit" name="logout" value="LOGOUT" style="color:white;width:220px;height:30px;border:2px solid blue  ;background-color:red;font-size:20px"/></center>
+</form>
+  </body>
+</html>
