@@ -9,6 +9,8 @@ project is purely based on backend database management using PHP,SQL and HTML,CS
 1.download local server xampp from link https://www.apachefriends.org/index.html
 
 2.put all given files in htdocs in new folder (for ex. projects) of  xampp;
+
 3:activate apache and mysql server over xampp and type url localhost/projects
 it will open the login page for database management system,type username password both as manit.
+
 NOte::you can see all database tables by url localhost/phpmyadmin
